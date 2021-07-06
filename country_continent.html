@@ -1,0 +1,27 @@
+<html>
+    <body>
+        <div>
+            <select  id="myselect">
+                <option value="Asia">India</option>
+                <option value="United States Of  America">North America</option>
+                <option value="China">Asia</option>
+                <option value="Nepal">Asia</option>
+                <option value="Australia">Australia</option>
+                <option value="France">Europe</option>
+                <option value="Germany">Europe</option>
+                <option value="South Africa">Africa</option>
+                <option value="Nigeria">Africa</option>
+                <option value="Mexico">North America</option>
+                <option value="Aregentina">South America</option>
+               </select>
+        </div>
+        <br/>
+        <button onclick="showoption()">Alert option</button>
+    </body>
+
+    <script>
+        function showoption(){
+            alert(document.getElementById("myselect").value)
+        }
+    </script>
+</html>
